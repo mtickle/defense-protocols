@@ -1,0 +1,341 @@
+[
+  {
+    "id": 1,
+    "slug": "anxiety-defense",
+    "title": "The Anxiety Defense Protocol",
+    "subtitle": "For when the physical symptoms begin.",
+    "icon": "shield-check",
+    "themeColor": "slate",
+    "intro": "Father, the alarm is ringing and the heat is rising, but I choose to stand still in Your presence...",
+    "steps": [
+      {
+        "id": "1-1",
+        "title": "The Physical Reset",
+        "verse": "TODO: Paste your original verse here",
+        "insight": "TODO: Paste your original insight here",
+        "trigger": "TODO: Paste trigger",
+        "action": "TODO: Paste action",
+        "goal": "TODO: Paste goal"
+      }
+    ],
+    "prayers": [
+      {
+        "title": "The Prayer",
+        "text": "Father, the alarm is ringing and the heat is rising, but I choose to stand still in Your presence. I know this fear is a liar. I surrender these physical sensations to You right now. You are my Shield and my Fortress. I close the back door to the Enemy and I invite Your Holy Spirit to occupy this space. Cool the fire in my chest and quiet the storm in my mind. I am safe with You. Amen."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "sudden-storm",
+    "title": "The Sudden Storm",
+    "subtitle": "For when financial news or bad news threatens your hope.",
+    "icon": "bolt",
+    "themeColor": "amber",
+    "intro": "Life rarely gives us a warning before the bottom falls out. This protocol is designed to arrest the spiral of panic that happens in the first few minutes of a crisis.",
+    "steps": [
+      {
+        "id": "2-1",
+        "title": "The Shock Absorber",
+        "verse": "He will not fear bad news; his heart is steadfast, trusting in the Lord. — Psalm 112:7",
+        "insight": "When the phone rings or the envelope opens, the physical shock is instant. Your heart rate spikes and your stomach drops. But the Psalmist tells us the righteous man is not immune to bad news; he is simply not enslaved by the fear of it.",
+        "trigger": "The moment you open the bill, check the bank balance, or get the rejection email.",
+        "action": "Freeze. Do not make decisions in the first 5 minutes of shock.",
+        "goal": "Prevent the initial panic from becoming a decision-making filter."
+      },
+      {
+        "id": "2-2",
+        "title": "The Value Decoupling",
+        "verse": "Are not five sparrows sold for two pennies? Yet not one of them is forgotten by God... Don’t be afraid; you are worth more than many sparrows. — Luke 12:6-7",
+        "insight": "In a capitalist world, we are conditioned to believe that our Net Worth equals our Self Worth. This is a lie from the pit. Money is merely a tool for trade; it is not a measurement of your soul.",
+        "trigger": "When you feel worthless or like a failure because you are facing a financial shortfall.",
+        "action": "Touch your chest and remind yourself that the God of the Universe knows the number of hairs on your head.",
+        "goal": "Stop the lie that your value decreases when your funds decrease."
+      },
+      {
+        "id": "2-3",
+        "title": "The 'Raven' Reminder",
+        "verse": "Consider the ravens: They do not sow or reap, they have no storeroom or barn; yet God feeds them. — Luke 12:24",
+        "insight": "Anxiety thrives on the abstract, but faith is built on the concrete. If God maintains the biological systems that feed the birds—creatures that don't even pray—He has certainly not forgotten the biological systems that feed you.",
+        "trigger": "The intrusive thought 'I am going to starve' or 'I will lose everything.'",
+        "action": "Look outside. Find a bird. Seriously. Watch it for 30 seconds. Realize it isn't worried, yet it is fed.",
+        "goal": "Re-ground yourself in the biological reality of God’s daily provision for His creation."
+      },
+      {
+        "id": "2-4",
+        "title": "The History Review",
+        "verse": "I will remember the deeds of the Lord; yes, I will remember your miracles of long ago. — Psalm 77:11",
+        "insight": "Fear is a liar that tries to erase your memory. You have a track record of survival. Use that data to fight the current emotional lie.",
+        "trigger": "When you feel like this current situation is the end of the road.",
+        "action": "List 3 previous crises. Write down three times in the past where you thought 'I can't make it,' and write down how you survived them.",
+        "goal": "Use data from your own past to disprove the fear of the future."
+      },
+      {
+        "id": "2-5",
+        "title": "The 'Manna' Limit",
+        "verse": "Then Moses said to them, 'No one is to keep any of it until morning.' — Exodus 16:19",
+        "insight": "God gives grace in 24-hour increments. If you try to carry next month's problems with today's strength, you will break.",
+        "trigger": "Trying to solve the financial problems of next month or next year right now.",
+        "action": "Build a 'One-Day Wall.' Ask: 'Do I have enough to survive today?' If yes, stop trusting for tomorrow and trust only for today.",
+        "goal": "Shrink the battlefield. You cannot fight next month's demons with today's strength."
+      }
+    ],
+    "prayers": [
+      {
+        "title": "The Prayer",
+        "text": "Lord, the waves are crashing over me and I feel like I am sinking. The problems are piling up faster than I can solve them. I confess that I am afraid and I feel overwhelmed. But You are the Master of the storm. You are not surprised by this bill, this breakdown, or this bad news. I anchor my trust in Your provision, not my bank account. Calm the panic in my heart so I can hear Your voice. I will not fear the rain, for You are my Shelter. Amen."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "resilience",
+    "title": "The Resilience Protocol",
+    "subtitle": "For learning to love life while solving problems.",
+    "icon": "sun",
+    "themeColor": "emerald",
+    "intro": "The Resilience Protocol is about breaking out of the Waiting Room. It is the spiritual discipline of learning to love your life while you are solving your problems.",
+    "steps": [
+      {
+        "id": "3-1",
+        "title": "The Reality Acceptance",
+        "verse": "In this world you will have trouble. But take heart! I have overcome the world. — John 16:33",
+        "insight": "When it rains, you don't stand outside screaming at the sky; you simply put on a raincoat and keep walking. Acceptance isn't defeat; it is the refusal to be surprised by the inevitable.",
+        "trigger": "When a new problem hits and you feel that shock of 'Why me?'",
+        "action": "Say out loud: 'This is expected. Nothing has gone wrong; this is just the world we live in.'",
+        "goal": "Stop being surprised by the rain; just put on the raincoat."
+      },
+      {
+        "id": "3-2",
+        "title": "The Joy Reframing",
+        "verse": "Consider it pure joy... because you know that the testing of your faith produces perseverance. — James 1:2-3",
+        "insight": "The friction you are feeling right now is not meaningless pain; it is the resistance required to build spiritual grit. You are not just suffering; you are training.",
+        "trigger": "Waiting for the problem to be solved before allowing yourself to be happy.",
+        "action": "Find one specific thing this problem is teaching you (patience, grit, empathy) and thank God for the lesson.",
+        "goal": "Find joy in the solving, not just after it."
+      },
+      {
+        "id": "3-3",
+        "title": "The 'Simple Good' Strategy",
+        "verse": "That each of them may eat and drink, and find satisfaction in all their toil—this is the gift of God. — Ecclesiastes 3:12-13",
+        "insight": "Anxiety wants to be a totalitarian regime. This protocol fights that by compartmentalizing. You can have a massive financial crisis and still genuinely enjoy a hot cup of coffee.",
+        "trigger": "Letting the 'Big Problem' ruin small moments of peace or pleasure.",
+        "action": "Compartmentalize. Intentionally enjoy your coffee, your dinner, or the sunset, refusing to think about the crisis for those 15 minutes.",
+        "goal": "Find satisfaction in simple gifts amidst the toil."
+      },
+      {
+        "id": "3-4",
+        "title": "The Secret of Contentment",
+        "verse": "I have learned the secret of being content in any and every situation... — Philippians 4:11-12",
+        "insight": "This is called 'Dual Processing.' You hold two truths in your head simultaneously: 'This situation is incredibly hard' AND 'God is incredibly good.'",
+        "trigger": "Feeling inner turmoil because of outer chaos.",
+        "action": "Practice 'Dual Processing.' Say: 'I acknowledge this pain, AND I acknowledge God's goodness.'",
+        "goal": "Detach inner peace from outer circumstances."
+      }
+    ],
+    "prayers": [
+      {
+        "title": "The Prayer",
+        "text": "Lord, I am tired of waiting for the storm to pass. I confess that I have delayed my gratitude and paused my joy. But You are the God of the present tense. You are here, in the middle of this mess. I choose to accept this season without bitterness. I choose to find the small blessings You have hidden in this dark day. I will not let this trouble steal my life. I put on my spiritual raincoat, and I choose to walk with You in the rain. Amen."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "valley-walker",
+    "title": "The Valley Walker",
+    "subtitle": "For navigating depression and darkness.",
+    "icon": "cloud",
+    "themeColor": "indigo",
+    "intro": "This is the protocol for the days when the 'fight' has left you. You are not required to run through the valley; you are only required to walk.",
+    "steps": [
+      {
+        "id": "4-1",
+        "title": "The 'Elijah' Reset",
+        "verse": "All at once an angel touched him and said, 'Get up and eat.' — 1 Kings 19:5-6",
+        "insight": "God understands that you are a biological machine. Sometimes, what feels like a spiritual crisis is actually physical depletion. The most spiritual thing you can do right now might be to sleep.",
+        "trigger": "When you feel completely depleted, exhausted, and unable to function spiritually.",
+        "action": "Tend to the physical. Eat something healthy. Drink a glass of water. Go to sleep.",
+        "goal": "Acknowledge that you are a physical being whose body affects your spirit."
+      },
+      {
+        "id": "4-2",
+        "title": "The Raw Lament",
+        "verse": "You have put me in the lowest pit... Darkness is my closest friend. — Psalm 88",
+        "insight": "God wants to validate your pain, not just your praise. He is big enough to handle your anger, your accusation, and your despair.",
+        "trigger": "When you feel the pressure to 'put on a happy face' for God or others.",
+        "action": "Write an unfiltered prayer. Tell God exactly how dark it is. Accuse Him if you feel abandoned.",
+        "goal": "Intimacy through honesty. You can't be close to God while wearing a mask."
+      },
+      {
+        "id": "4-3",
+        "title": "The 'Whisper' Hunt",
+        "verse": "And after the fire came a gentle whisper. — 1 Kings 19:12-13",
+        "insight": "Depression is loud. To hear God, you don't need to shout louder; you need to lower the noise floor. You have to get quiet enough that if He breathed, you would feel it.",
+        "trigger": "Feeling overwhelmed by the screaming noise of your own negative thoughts.",
+        "action": "Practice 5 minutes of silence. Just get quiet enough so that if He whispered, you might hear it.",
+        "goal": "Re-calibrate your ears to low volume."
+      },
+      {
+        "id": "4-4",
+        "title": "The Mustard Seed Move",
+        "verse": "If you have faith as small as a mustard seed... — Matthew 17:20",
+        "insight": "The lie of depression is paralysis. The smallest possible unit of action contains enough power to break the paralysis. You don't have to fix your life today. You just have to brush your teeth.",
+        "trigger": "Feeling paralyzed by the enormity of the depression.",
+        "action": "Do the next right thing. Not the big thing. Just the next tiny thing.",
+        "goal": "Break the paralysis with minuscule action."
+      }
+    ],
+    "prayers": [
+      {
+        "title": "The Prayer",
+        "text": "Father, I am in the valley. I cannot see the sun, and I feel heavy, empty, and alone. I don't have the strength to climb out of this pit, so I am asking You to climb down here with me. I surrender my need to 'fix' myself right now. I choose to trust that You are holding me even when I cannot feel Your hands. Give me the strength to take just one breath, one step, one moment at a time. I am waiting for Your whisper. Amen."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "mat-bearer",
+    "title": "The Mat Bearer",
+    "subtitle": "For when a loved one is sick.",
+    "icon": "heart",
+    "themeColor": "rose",
+    "intro": "The 'Mat Bearer' Protocol is for the caregivers who feel powerless. You cannot save them, but you can carry them to the One who can.",
+    "steps": [
+      {
+        "id": "5-1",
+        "title": "The 'Nevertheless' Prayer",
+        "verse": "Father, if you are willing, take this cup from me; yet not my will, but yours be done. — Luke 22:42",
+        "insight": "This is the 'Two-Handed Prayer.' In one hand, you hold your desperate desire; in the other, you hold your surrender. You can—and must—have both.",
+        "trigger": "Receiving a bad diagnosis or watching them suffer in real-time.",
+        "action": "Pray with two hands: Clench one fist ('God, I want this healing!') and open the other hand ('Nevertheless, I trust Your plan.').",
+        "goal": "Honest petition quickly anchored by trust in God's ultimate wisdom."
+      },
+      {
+        "id": "5-2",
+        "title": "The Roof-Rip Strategy",
+        "verse": "When Jesus saw their faith, he said to the paralyzed man... — Mark 2:3-5",
+        "insight": "You don't just bring soup; you bring faith. You believe for them. You become their external spiritual battery.",
+        "trigger": "Feeling like there is nothing practical you can do to help.",
+        "action": "Be their external faith. Speak words of life and hope over them when they cannot speak them for themselves.",
+        "goal": "Active, intercessory faith that refuses to be blocked by obstacles."
+      },
+      {
+        "id": "5-3",
+        "title": "The Waiting Room Theology",
+        "verse": "So when he heard that Lazarus was sick, he stayed where he was two more days. — John 11:6",
+        "insight": "Jesus delays because of a greater purpose. When you are in the waiting room, silence does not mean absence. It often means God is preparing a resurrection rather than just a recovery.",
+        "trigger": "When God seems silent or slow in answering prayers for healing.",
+        "action": "Focus on His presence, not just His pace. Remind yourself that God's timing often involves a greater purpose.",
+        "goal": "Trusting God's heart even when you can't understand His schedule."
+      },
+      {
+        "id": "5-4",
+        "title": "The Eternal Anchor",
+        "verse": "For our light and momentary troubles are achieving for us an eternal glory... — 2 Corinthians 4:17",
+        "insight": "We are not just fighting for a few more healthy years on earth; we are looking toward a restoration that is permanent. The pain isn't wasted.",
+        "trigger": "When the physical suffering seems unbearable, endless, or pointless.",
+        "action": "Shift the horizon. Gently remind yourself that restoration is guaranteed in eternity, even if not today.",
+        "goal": "Anchoring hope in the unshakeable reality of eternity, not just temporary physical health."
+      }
+    ],
+    "prayers": [
+      {
+        "title": "The Prayer",
+        "text": "Father, my hands are shaking and my heart is breaking for the one I love. I feel helpless to stop their pain. So I am doing the only thing I know to do: I am carrying them to You. I lift them up to Your throne. I ask for the miracle of healing, but even more, I ask for the miracle of Your peace. Be the strength in their bones when they are weak. Give me the endurance to hold their mat without wavering. I trust You with their life, both now and forever. Amen."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "audience-of-one",
+    "title": "The Audience of One",
+    "subtitle": "For competition, comparison, and success.",
+    "icon": "trophy",
+    "themeColor": "yellow",
+    "intro": "We often confuse the scoreboard with the purpose. True success isn't about conquering the competition; it is about the faithful stewardship of the gift.",
+    "steps": [
+      {
+        "id": "6-1",
+        "title": "The Supporter (Parent/Spouse/Fan)",
+        "verse": "Pay careful attention to your own work... for we are each responsible for our own conduct. — Galatians 6:4-5",
+        "insight": "As supporters, we often use our team or child's success to feel good about ourselves. But when we are devastated by a loss, we validate the lie that worth is measured by winning.",
+        "trigger": "When the scoreboard is against you, or you feel the physical sting of envy.",
+        "action": "Decouple your identity from the result. Break the silence of disappointment by praising a specific aspect of the effort or character.",
+        "goal": "Model a secure identity that enjoys the competition without being enslaved by the need for validation."
+      },
+      {
+        "id": "6-2",
+        "title": "The Child/Performer (The Shield)",
+        "verse": "Pay careful attention to your own work...",
+        "insight": "You are not responsible for the happiness of your fans, teammates, or even your parents. Your talent is a gift from God, given to YOU to enjoy.",
+        "trigger": "When you perform and feel the weight of someone else’s disappointment.",
+        "action": "Visualize 'The Audience of One.' Imagine God is the only person in the seats.",
+        "goal": "Separate your love for your activity from the approval of others."
+      }
+    ],
+    "prayers": [
+      {
+        "title": "The Supporter's Prayer",
+        "text": "God, I confess that I have made an idol out of winning. My heart hurts because I am looking at the scoreboard instead of looking at You. Forgive me for measuring my worth by a trophy or a title. Thank You for the gift You have given me. Help me to steward it faithfully and let go of the result. I tear down the altar of comparison. I am playing for You alone. Amen."
+      },
+      {
+        "title": "The Player's Prayer",
+        "text": "God, thank You for giving me this talent. I promise to do my best today, just for You. Help me remember that You are smiling at me, even if I don't win. I don't need a trophy to be special, and I don't need to be perfect to be loved. I am playing for You, and I know You are proud of me. Amen."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "overflow",
+    "title": "The Overflow Protocol",
+    "subtitle": "For celebrating God's love and gratitude.",
+    "icon": "fire",
+    "themeColor": "orange",
+    "intro": "The 'Overflow Protocol' is the shift from defense to offense. The Enemy can handle your worry and your planning, but he cannot handle your praise.",
+    "steps": [
+      {
+        "id": "7-1",
+        "title": "The Memorial Stone",
+        "verse": "These stones are to be a memorial to the people of Israel forever. — Joshua 4:6-7",
+        "insight": "Humans suffer from chronic spiritual amnesia. Unless you write it down or mark the moment, the miracle will fade into the background noise of life.",
+        "trigger": "A breakthrough, an answered prayer, or a moment of clear provision.",
+        "action": "Create a physical 'Ebenezer.' Write the date and the victory on a rock, put a note in a jar, or frame a memento.",
+        "goal": "Solidify the memory to prevent future spiritual amnesia."
+      },
+      {
+        "id": "7-2",
+        "title": "The 'Undignified' Praise",
+        "verse": "David, wearing a linen ephod, danced before the Lord with all his might... — 2 Samuel 6:14",
+        "insight": "True gratitude requires the death of your dignity. If you only worship when it is polite and comfortable, you are worshipping your own reputation.",
+        "trigger": "A swell of inner joy or a realization of God's goodness.",
+        "action": "Express it physically. Sing loud in the car, lift your hands, or kneel. Do not contain it.",
+        "goal": "Let inner gratitude become outer expression."
+      },
+      {
+        "id": "7-3",
+        "title": "The 'Habit-Stack' Offering",
+        "verse": "Rejoice always, pray continually, give thanks in all circumstances... — 1 Thessalonians 5:16-18",
+        "insight": "Gratitude should not be an event you visit; it should be the atmosphere you live in. The secret is attaching a spiritual discipline to a physical habit.",
+        "trigger": "Mundane daily tasks (pouring coffee, starting the car, walking through the front door).",
+        "action": "Attach a specific 'thank you' to the habit.",
+        "goal": "Weave gratitude into the fabric of your ordinary day."
+      },
+      {
+        "id": "7-4",
+        "title": "The 'Prodigal Party'",
+        "verse": "Let’s have a feast and celebrate. For this son of mine was dead and is alive again... — Luke 15:23-24",
+        "insight": "Religion is often somber, but the Kingdom of God is a party. Laughter and community are forms of spiritual warfare because they declare that the Enemy did not win.",
+        "trigger": "A milestone of grace, a new beginning, or a season of restoration.",
+        "action": "Host a real celebration. Gather your people, share a meal, and verbally give glory to God.",
+        "goal": "Reflect the joyful, celebratory heart of the Father."
+      }
+    ],
+    "prayers": [
+      {
+        "title": "The Prayer",
+        "text": "Father, I am running over! You have turned my mourning into dancing and my sorrow into joy. I refuse to be silent about Your goodness. Thank You for the battles You have won for me, and thank You for the peace that guards my heart. I praise You not just for what You do, but for who You are. You are Good. You are Faithful. You are Here. Let my life be a living song of gratitude. To You be the glory, forever and ever. Amen."
+      }
+    ]
+  }
+]
