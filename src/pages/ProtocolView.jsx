@@ -139,7 +139,7 @@ export default function ProtocolView() {
                             </div>
 
                             <div>
-                                <h3 className="text-xs font-bold text-emerald-4400 uppercase tracking-widest mb-1">Goal</h3>
+                                <h3 className="text-xs font-bold text-emerald-400 uppercase tracking-widest mb-1">Goal</h3>
                                 <p className="text-slate-300">{currentStep.goal}</p>
                             </div>
                         </div>
