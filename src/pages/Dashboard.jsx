@@ -1,4 +1,4 @@
-import { Anchor, ChevronRight, Cloud, Compass, Flame, Heart, ShieldCheck, Sprout, Sun, Trophy, Zap } from 'lucide-react';
+import { Anchor, ChevronRight, Cloud, Compass, Flame, Heart, Info, ShieldCheck, Sprout, Sun, Trophy, Zap } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import protocols from '../data/protocols.json';
 
@@ -47,6 +47,15 @@ export default function Dashboard() {
                     );
                 })}
             </div>
+            <footer className="mt-12 mb-6 flex justify-center">
+                <Link
+                    to="/about"
+                    className="group flex items-center gap-2 px-4 py-2 rounded-full bg-slate-900/50 text-slate-500 hover:text-slate-300 hover:bg-slate-900 transition-all text-xs font-bold uppercase tracking-widest"
+                >
+                    <Info size={14} className="group-hover:text-emerald-400 transition-colors" />
+                    <span>System Intel</span>
+                </Link>
+            </footer>
         </div>
     );
 }
