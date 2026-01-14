@@ -54,7 +54,7 @@ export default function About() {
             {/* Footer Credits */}
             <footer className="mt-12 py-6 border-t border-slate-900 text-center">
                 <p className="text-slate-600 text-xs">
-                    Designed & Deployed by Michael
+                    Designed & Deployed by Mike Tickle
                 </p>
             </footer>
         </div>
