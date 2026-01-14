@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) navigator.serviceWorker.register('/defense-protocols/dev-sw.js?dev-sw', { scope: '/defense-protocols/', type: 'classic' })

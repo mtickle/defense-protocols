@@ -1,11 +1,13 @@
-import { ArrowLeft, ArrowRight, Cloud, Compass, Flame, Footprints, Heart, HeartHandshake, ShieldCheck, Sun, Trophy, X, Zap } from 'lucide-react';
+import { Anchor, ArrowLeft, ArrowRight, Cloud, CloudLightning, Compass, Flame, Footprints, Heart, HeartHandshake, ShieldCheck, Sprout, Sun, Trophy, X, Zap } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import { useSwipeable } from 'react-swipeable'; // <--- IMPORT THIS
 import protocols from '../data/protocols.json';
 
 // Icon Map
 const iconMap = {
-    ShieldCheck, Zap, Sun, Cloud, Heart, Trophy, Flame, Footprints, HeartHandshake, Compass
+    ShieldCheck, Zap, Sun, Cloud, Heart, Trophy, Flame, Footprints, HeartHandshake, Compass,
+    Anchor, CloudLightning, Sprout // Added extras just in case
 };
 
 export default function ProtocolView() {
@@ -22,14 +24,30 @@ export default function ProtocolView() {
 
     // HARDENED LOGIC:
     const isIntro = stepIndex === 0;
-    // Prayer is always the step AFTER the last data step
     const isPrayer = stepIndex === data.steps.length + 1;
-    // Step is strictly between 0 and Prayer
     const isStep = stepIndex > 0 && stepIndex <= data.steps.length;
 
-    // Safe access: If we are in a step, grab the data (offset by 1 due to Intro)
-    // If calculation fails, fallback to an empty object to prevent crash
+    // Safe access
     const currentStep = isStep ? (data.steps[stepIndex - 1] || {}) : null;
+
+    // --- NAVIGATION HELPERS ---
+    const handleNext = () => {
+        if (!isPrayer) {
+            setStepIndex(curr => Math.min(data.steps.length + 1, curr + 1));
+        }
+    };
+
+    const handlePrev = () => {
+        setStepIndex(curr => Math.max(0, curr - 1));
+    };
+
+    // --- SWIPE CONFIGURATION ---
+    const handlers = useSwipeable({
+        onSwipedLeft: () => handleNext(),  // Swipe Left = Next
+        onSwipedRight: () => handlePrev(), // Swipe Right = Back
+        preventScrollOnSwipe: true,        // Prevents scrolling while swiping
+        trackMouse: true                   // Allows testing on desktop with mouse drag
+    });
 
     // Theme Helpers
     const accentText = {
@@ -45,7 +63,11 @@ export default function ProtocolView() {
     const Icon = iconMap[data.icon] || ShieldCheck;
 
     return (
-        <div className="min-h-screen flex flex-col max-w-md mx-auto relative bg-slate-950">
+        // ATTACH HANDLERS TO OUTER DIV
+        <div
+            {...handlers}
+            className="min-h-screen flex flex-col max-w-md mx-auto relative bg-slate-950"
+        >
 
             {/* 1. Header */}
             <header className="flex justify-between items-center p-6 z-10">
@@ -58,7 +80,8 @@ export default function ProtocolView() {
             </header>
 
             {/* 2. Content Area */}
-            <main className="flex-1 px-6 flex flex-col justify-start pt-2 z-10 pb-24">
+            {/* Added 'select-none' to prevent text highlighting while swiping */}
+            <main className="flex-1 px-6 flex flex-col justify-start pt-2 z-10 pb-24 select-none">
 
                 {/* --- VIEW 1: INTRO CARD --- */}
                 {isIntro && (
@@ -115,12 +138,10 @@ export default function ProtocolView() {
                                 <p className="text-slate-300">{currentStep.action}</p>
                             </div>
 
-
                             <div>
-                                <h3 className="text-xs font-bold text-yellow-400 uppercase tracking-widest mb-1">Action</h3>
+                                <h3 className="text-xs font-bold text-yellow-400 uppercase tracking-widest mb-1">Goal</h3>
                                 <p className="text-slate-300">{currentStep.goal}</p>
                             </div>
-
                         </div>
                     </div>
                 )}
@@ -164,7 +185,7 @@ export default function ProtocolView() {
             <footer className="fixed bottom-0 w-full max-w-md bg-slate-950/80 backdrop-blur-md border-t border-slate-800 p-6 flex justify-between items-center z-20">
 
                 <button
-                    onClick={() => setStepIndex(Math.max(0, stepIndex - 1))}
+                    onClick={handlePrev} // Updated to use helper
                     disabled={stepIndex === 0}
                     className="p-3 rounded-full hover:bg-slate-800 disabled:opacity-30 text-slate-400 transition-colors"
                 >
@@ -182,7 +203,7 @@ export default function ProtocolView() {
                 </div>
 
                 <button
-                    onClick={() => setStepIndex(Math.min(data.steps.length + 1, stepIndex + 1))}
+                    onClick={handleNext} // Updated to use helper
                     disabled={isPrayer}
                     className={`p-3 rounded-full transition-all ${isPrayer
                         ? 'bg-slate-900 text-slate-700 cursor-not-allowed'
