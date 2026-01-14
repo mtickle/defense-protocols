@@ -1,10 +1,10 @@
-import { ChevronRight, Cloud, Flame, Heart, ShieldCheck, Sun, Trophy, Zap } from 'lucide-react';
+import { Anchor, ChevronRight, Cloud, Compass, Flame, Heart, ShieldCheck, Sprout, Sun, Trophy, Zap } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import protocols from '../data/protocols.json';
 
 // Icon Map
 const iconMap = {
-    ShieldCheck, Zap, Sun, Cloud, Heart, Trophy, Flame: Flame // Default
+    Compass, Sprout, Anchor, ShieldCheck, Zap, Sun, Cloud, Heart, Trophy, Flame: Flame // Default
 };
 
 const themeColors = {
@@ -21,10 +21,11 @@ export default function Dashboard() {
     return (
         <div className="p-6 max-w-md mx-auto min-h-screen">
             <header className="mb-8 mt-4">
-                <h1 className="text-3xl font-extrabold tracking-tight text-slate-100 uppercase">
-                    Battle<br /><span className="text-slate-500">Protocols</span>
+                <h1 className="text-2xl font-extrabold tracking-tight text-slate-100 uppercase">
+                    Biblical
+                    <span className="text-slate-300"> Defense</span>
+                    <span className="text-slate-500"> Protocols</span>
                 </h1>
-                <p className="text-slate-400 text-sm mt-2">Select your deployment.</p>
             </header>
 
             <div className="space-y-4">

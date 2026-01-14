@@ -2,20 +2,56 @@
   {
     "id": 1,
     "slug": "anxiety-defense",
-    "title": "The Anxiety Defense Protocol",
-    "subtitle": "For when the physical symptoms begin.",
-    "icon": "shield-check",
+    "title": "The Spiritual Intrusion Protocol",
+    "subtitle": "For when anxiety symptoms begin.",
+    "icon": "Anchor",
     "themeColor": "slate",
-    "intro": "Father, the alarm is ringing and the heat is rising, but I choose to stand still in Your presence...",
+    "intro": "At its core, anxiety is a crisis of imagination. It takes the creative power God gave you—the ability to envision the future—and twists it to envision disaster without God in the picture.",
     "steps": [
       {
         "id": "1-1",
-        "title": "The Physical Reset",
-        "verse": "TODO: Paste your original verse here",
+        "title": "The Peace Sentry",
+        "verse": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus. — Philippians 4:6-7",
         "insight": "TODO: Paste your original insight here",
-        "trigger": "TODO: Paste trigger",
-        "action": "TODO: Paste action",
-        "goal": "TODO: Paste goal"
+        "trigger": "Feeling physical tightness in the chest, racing thoughts, or a sense of dread.",
+        "action": "Stop. Name three specific things you are thankful for to shift your focus. Then, verbally hand the specific worry to God.",
+        "goal": "Establish a perimeter of peace around your mind that anxiety cannot breach."
+      },
+      {
+        "id": "1-2",
+        "title": "The Thought Audit",
+        "verse": "We demolish arguments and every pretension that sets itself up against the knowledge of God, and we take captive every thought to make it obedient to Christ. — 2 Corinthians 10:5",
+        "insight": "TODO: Paste your original insight here",
+        "trigger": "Your mind spiraling into \"What if...\" scenarios or imagining worst-case outcomes.",
+        "action": "\"Arrest\" the thought. Ask it three questions: Is this true? Is this helpful? Is this from God? If the answer is no, reject it immediately.",
+        "goal": "Stop the spiral before it becomes a catastrophe in your imagination."
+      },
+      {
+        "id": "1-3",
+        "title": "The Faith Barrier",
+        "verse": "In addition to all this, take up the shield of faith, with which you can extinguish all the flaming arrows of the evil one. — Ephesians 6:16",
+        "insight": "",
+        "trigger": " Sudden, intrusive panic or negative self-talk.",
+        "action": "Visualize a barrier. Say out loud, \"I do not accept that thought.\" Quote a specific promise of God (e.g., \"I am never alone\") to counter the lie.",
+        "goal": " Block the \"fiery darts\" and extinguish them before they can start a fire in your emotions."
+      },
+      {
+        "id": "1-4",
+        "title": "The Backpack Drop",
+        "verse": "Cast all your anxiety on him because he cares for you. — 1 Peter 5:7",
+        "insight": "",
+        "trigger": "Feeling crushed by the weight of responsibility or the pressure to fix everything.",
+        "action": "The physical release. Close your eyes and visualize taking off a heavy backpack filled with your worries. See yourself dropping it at Jesus’ feet and walking away lighter.",
+        "goal": "Shift the burden of the outcome from your shoulders to His."
+      },
+      {
+        "id": "1-5",
+        "title": "The \"Today\" Focus",
+        "verse": "Therefore do not worry about tomorrow, for tomorrow will worry about itself. Each day has enough trouble of its own. — Matthew 6:34",
+        "insight": "",
+        "trigger": "Obsessing about upcoming events, bills, or deadlines that are days or weeks away.",
+        "action": "Shrink your timeline. Say, \"I only have grace for today.\" Identify the one next step you can take right now and ignore the rest of the mountain.",
+        "goal": "Return your mind to the present moment, the only place where God provides grace. "
       }
     ],
     "prayers": [
@@ -28,9 +64,9 @@
   {
     "id": 2,
     "slug": "sudden-storm",
-    "title": "The Sudden Storm",
-    "subtitle": "For when financial news or bad news threatens your hope.",
-    "icon": "bolt",
+    "title": "The Sudden Storm Protocol",
+    "subtitle": "For when bad news threatens your hope.",
+    "icon": "Zap",
     "themeColor": "amber",
     "intro": "Life rarely gives us a warning before the bottom falls out. This protocol is designed to arrest the spiral of panic that happens in the first few minutes of a crisis.",
     "steps": [
@@ -92,7 +128,7 @@
     "slug": "resilience",
     "title": "The Resilience Protocol",
     "subtitle": "For learning to love life while solving problems.",
-    "icon": "sun",
+    "icon": "Sprout",
     "themeColor": "emerald",
     "intro": "The Resilience Protocol is about breaking out of the Waiting Room. It is the spiritual discipline of learning to love your life while you are solving your problems.",
     "steps": [
@@ -143,9 +179,9 @@
   {
     "id": 4,
     "slug": "valley-walker",
-    "title": "The Valley Walker",
+    "title": "The Valley Walker Protocol",
     "subtitle": "For navigating depression and darkness.",
-    "icon": "cloud",
+    "icon": "Compass",
     "themeColor": "indigo",
     "intro": "This is the protocol for the days when the 'fight' has left you. You are not required to run through the valley; you are only required to walk.",
     "steps": [
@@ -196,9 +232,9 @@
   {
     "id": 5,
     "slug": "mat-bearer",
-    "title": "The Mat Bearer",
+    "title": "The Mat Bearer Protocol",
     "subtitle": "For when a loved one is sick.",
-    "icon": "heart",
+    "icon": "Heart",
     "themeColor": "rose",
     "intro": "The 'Mat Bearer' Protocol is for the caregivers who feel powerless. You cannot save them, but you can carry them to the One who can.",
     "steps": [
@@ -249,9 +285,9 @@
   {
     "id": 6,
     "slug": "audience-of-one",
-    "title": "The Audience of One",
+    "title": "The Audience of One Protocol",
     "subtitle": "For competition, comparison, and success.",
-    "icon": "trophy",
+    "icon": "Trophy",
     "themeColor": "yellow",
     "intro": "We often confuse the scoreboard with the purpose. True success isn't about conquering the competition; it is about the faithful stewardship of the gift.",
     "steps": [
@@ -290,7 +326,7 @@
     "slug": "overflow",
     "title": "The Overflow Protocol",
     "subtitle": "For celebrating God's love and gratitude.",
-    "icon": "fire",
+    "icon": "Flame",
     "themeColor": "orange",
     "intro": "The 'Overflow Protocol' is the shift from defense to offense. The Enemy can handle your worry and your planning, but he cannot handle your praise.",
     "steps": [
