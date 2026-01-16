@@ -113,18 +113,20 @@ export default function ProtocolView() {
                                 {currentStep.title}
                             </h2>
                         </div>
-
                         {/* The Verse Anchor */}
                         <div className={`mb-8 border-l-4 pl-4 ${themeBorder}`}>
                             <p className="font-serif text-base italic text-slate-100 mb-2">
                                 "{currentStep.verse}"
                             </p>
-                            {currentStep.reference && (
-                                <p className={`text-xs font-bold uppercase tracking-wider ${accentText}`}>
-                                    {currentStep.reference}
-                                </p>
-                            )}
+
                         </div>
+                        {currentStep.insight && (
+                            <><h3 className="text-xs font-bold text-purple-400 uppercase tracking-widest mb-1">Insight</h3><p className={`text-base   mb-5`}>
+                                {currentStep.insight}
+                            </p></>
+                        )}
+
+
 
                         {/* The HUD Data */}
                         <div className="space-y-6">
@@ -166,8 +168,9 @@ export default function ProtocolView() {
                                         "{prayer.text}"
                                     </p>
                                 </div>
-                            ))}
-                        </div>
+                            ))
+                            }
+                        </div >
                         <div className="mt-8 flex justify-center">
                             <button
                                 onClick={() => setStepIndex(0)}
@@ -176,13 +179,13 @@ export default function ProtocolView() {
                                 Reset
                             </button>
                         </div>
-                    </div>
+                    </div >
                 )}
 
-            </main>
+            </main >
 
             {/* 3. Footer Controls */}
-            <footer className="fixed bottom-0 w-full max-w-md bg-slate-950/80 backdrop-blur-md border-t border-slate-800 p-6 flex justify-between items-center z-20">
+            < footer className="fixed bottom-0 w-full max-w-md bg-slate-950/80 backdrop-blur-md border-t border-slate-800 p-6 flex justify-between items-center z-20" >
 
                 <button
                     onClick={handlePrev} // Updated to use helper
@@ -212,7 +215,7 @@ export default function ProtocolView() {
                 >
                     <ArrowRight size={24} />
                 </button>
-            </footer>
-        </div>
+            </footer >
+        </div >
     );
 }
