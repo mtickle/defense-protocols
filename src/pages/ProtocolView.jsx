@@ -70,7 +70,7 @@ export default function ProtocolView() {
         >
 
             {/* 1. Header */}
-            <header className="flex justify-between items-center p-6 z-10">
+            <header className="flex justify-between items-center pb-2 pt-2 z-10">
                 <div className={`text-xs font-bold tracking-widest uppercase ${accentText}`}>
                     {data.title}
                 </div>
@@ -81,7 +81,7 @@ export default function ProtocolView() {
 
             {/* 2. Content Area */}
             {/* Added 'select-none' to prevent text highlighting while swiping */}
-            <main className="flex-1 px-6 flex flex-col justify-start pt-2 z-10 pb-24 select-none">
+            <main className="flex-1 px-6 flex flex-col justify-start pt-1 z-10 pb-24 select-none">
 
                 {/* --- VIEW 1: INTRO CARD --- */}
                 {isIntro && (
@@ -129,7 +129,7 @@ export default function ProtocolView() {
 
 
                         {/* The HUD Data */}
-                        <div className="space-y-6">
+                        <div className="space-y-6 mb-6">
                             <div>
                                 <h3 className="text-xs font-bold text-rose-400 uppercase tracking-widest mb-1">Trigger</h3>
                                 <p className="text-slate-300">{currentStep.trigger}</p>
@@ -141,7 +141,7 @@ export default function ProtocolView() {
                             </div>
 
                             <div>
-                                <h3 className="text-xs font-bold text-emerald-400 uppercase tracking-widest mb-1">Goal</h3>
+                                <h3 className="text-xs font-bold text-emerald-400 uppercase tracking-widest mb-1 m">Goal</h3>
                                 <p className="text-slate-300">{currentStep.goal}</p>
                             </div>
                         </div>
